@@ -1,8 +1,8 @@
-Para modificar el diseño y permitir que el microservicio se comunique con otro que almacene el historial de cálculos en una base de datos externa haga lo siguiente:
+Para modificar el diseño y permitir que el microservicio se comunique con otro que almacene el historial de cálculos en una base de datos externa haría lo siguiente:
 
 1. **Comunicar los servicios:**
-   El microservicio actual debe enviar la información del cálculo al otro servicio mediante una solicitud HTTP POST. 
-   El segundo servicio sería responsable de guardar los datos en la base de datos.
+   * El microservicio actual debe enviar la información del cálculo al otro servicio mediante una solicitud HTTP POST. 
+   * El segundo servicio sería responsable de guardar los datos en la base de datos.
 
 2. **Separar las responsabilidades:**
    * El microservicio actual solo realiza cálculos y responde al usuario.
